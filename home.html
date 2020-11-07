@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1366, maximum-scale=1.0" />
+    <link rel="shortcut icon" href="./img/favicon.png" />
+    <meta name="og:type" content="website" />
+    <meta name="twitter:card" content="photo" />
+    <link rel="stylesheet" type="text/css" href="css/home.css" />
+    <style >
+      .anima-component-wrapper a,
+      .anima-screen a {
+        text-decoration: none;
+        display: contents;
+      }
+
+      .anima-full-width-a {
+        width: 100%;
+      }
+
+      .anima-full-height-a {
+        height: 100%;
+      }
+
+      .anima-screen textarea:focus,
+      .anima-screen input:focus {
+        outline: none;
+      }
+
+      .anima-screen *,
+      .anima-component-wrapper * {
+        box-sizing: border-box;
+      }
+
+      .anima-screen div {
+        -webkit-text-size-adjust: none;
+      }
+
+      .anima-container-center-vertical,
+      .anima-container-center-horizontal {
+        pointer-events: none;
+        display: flex;
+        flex-direction: row;
+        padding: 0;
+        margin: 0;
+      }
+
+      .anima-container-center-vertical {
+        align-items: center;
+        height: 100%;
+      }
+
+      .anima-container-center-horizontal {
+        justify-content: center;
+        width: 100%;
+      }
+
+      .anima-container-center-vertical > *,
+      .anima-container-center-horizontal > * {
+        pointer-events: auto;
+        flex-shrink: 0;
+      }
+
+      .anima-component-wrapper,
+      .anima-screen {
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        word-break: break-all;
+        word-break: break-word;
+      }
+
+      .anima-auto-animated div {
+        opacity: 0;
+        position: absolute;
+        --anima-z-index: -1;
+      }
+
+      .anima-auto-animated .anima-container-center-vertical,
+      .anima-auto-animated .anima-container-center-horizontal {
+        opacity: 1;
+      }
+
+      .anima-overlay {
+        position: absolute;
+        opacity: 0;
+        display: none;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+      }
+
+      .anima-animate-appear {
+        opacity: 0;
+        display: block;
+        animation: anima-reveal 0.3s ease-in-out 1 normal forwards;
+      }
+
+      .anima-animate-disappear {
+        opacity: 1;
+        display: block;
+        animation: anima-reveal 0.3s ease-in-out 1 reverse forwards;
+      }
+
+      .anima-animate-nodelay {
+        animation-delay: 0s;
+      }
+
+      @keyframes anima-reveal {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+      .align-self-flex-start {
+        align-self: flex-start;
+      }
+      .align-self-flex-end {
+        align-self: flex-end;
+      }
+      .align-self-flex-center {
+        align-self: center;
+      }
+      .anima-valign-text-middle {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+      .anima-valign-text-bottom {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+      }
+      .anima-component-wrapper,
+      .anima-component-wrapper * {
+        pointer-events: none;
+      }
+
+      .anima-component-wrapper a *,
+      .anima-component-wrapper a,
+      .anima-component-wrapper input,
+      .anima-component-wrapper video,
+      .anima-component-wrapper iframe,
+      .anima-listeners-active,
+      .anima-listeners-active * {
+        pointer-events: auto;
+      }
+
+      .anima-hidden,
+      .anima-hidden * {
+        visibility: hidden;
+        pointer-events: none;
+      }
+
+      .anima-smart-layers-pointers,
+      .anima-smart-layers-pointers * {
+        pointer-events: auto;
+        visibility: visible;
+      }
+
+      .anima-component-wrapper.anima-not-ready,
+      .anima-component-wrapper.anima-not-ready * {
+        visibility: hidden !important;
+      }
+
+      .anima-listeners-active-click,
+      .anima-listeners-active-click * {
+        cursor: pointer;
+      }
+      .topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color:#2164E9;
+  color: white;
+}
+.HomePage{
+  font-family: 'inter', Tahoma, Geneva, Verdana, sans-serif;
+}
+    </style>
+    <meta name="author" content="AnimaApp.com - Design to code, Automated." />
+  </head>
+  <body style="margin: 0; background: rgba(247, 247, 247, 1)" >
+    <div class="HomePage">
+      <input type="hidden" id="anPageName" name="page" value="home" />
+      <div class="topnav">
+        <a class="active" href="#home">Home</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
+      </div>
+      <div class="anima-container-center-horizontal">
+        <form class="home anima-screen" name="form2" action="form2" method="post">
+          <div class="group-3-C61RwL">
+            <div class="mask-group-1-hvAGCq">
+              <img class="jess-baile-m-unsplash-AkggNU" src="img/jess-bailey-q10vitrvyum-unsplash@1x.png" />
+            </div>
+            <img class="rectangle-2-hvAGCq" src="img/rectangle-2@1x.png" />
+          </div>
+          <div class="group-5-C61RwL">
+            <div class="group-2-iZjIT4">
+              <div class="learn-prog-amming-now-x9VTG4 font-class-1">Learn Programming Now.</div>
+              <div class="lorem-ipsu-umy-eirmod-x9VTG4 font-class-2">
+                Lorem ipsum dolor sit amet, consetetur sadipscing <br />elitr, sed diam nonumy eirmod
+              </div>
+            </div>
+            <a href="javascript:AnimaSubmitForm('form2')">
+              <div class="group-4-iZjIT4 anima-smart-layers-pointers">
+                <div class="lets-start-5FNhjl font-class-1">Let&#39;s Start</div>
+              </div></a
+            >
+          </div>
+          <div class="rectangle-4-C61RwL"></div>
+          <div class="group-11-C61RwL anima-smart-layers-pointers">
+            <img class="no-path-copy-11-bAyQtV" src="img/nopath---copy--11-@1x.png" />
+            <div class="c-bAyQtV font-class-1">C++</div>
+          </div>
+          <div class="group-8-C61RwL anima-smart-layers-pointers">
+            <img class="no-path-copy-17-3cZhlu" src="img/nopath---copy--17-@1x.png" />
+            <div class="java-3cZhlu font-class-1">Java</div>
+          </div>
+          <div class="group-7-C61RwL anima-smart-layers-pointers">
+            <img class="no-path-copy-12-SO40Oe" src="img/nopath---copy--12-@1x.png" />
+            <div class="ruby-SO40Oe font-class-1">Ruby</div>
+          </div>
+          <div class="group-10-C61RwL anima-smart-layers-pointers">
+            <img class="no-path-copy-14-CcEnn8" src="img/nopath---copy--14-@1x.png" />
+            <div class="c-CcEnn8 font-class-1">C#</div>
+          </div>
+          <div class="group-9-C61RwL anima-smart-layers-pointers">
+            <img class="no-path-copy-18-9dtg3L" src="img/nopath---copy--18-@1x.png" />
+            <div class="dart-9dtg3L font-class-1">Dart</div>
+          </div>
+          <div class="group-6-C61RwL anima-smart-layers-pointers">
+            <img class="no-path-copy-19-PIEh7b" src="img/nopath---copy--19-@1x.png" />
+            <div class="python-PIEh7b font-class-1">Python</div>
+          </div>
+          <div class="programmin--languages-C61RwL font-class-1">Programming Languages</div>
+          <div class="contact-us-C61RwL font-class-1">Contact Us</div>
+          <div class="group-12-C61RwL">
+            <input class="name-xFApRQ font-class-2" name="name1" placeholder="Name" type="text" required />
+          </div>
+          <a href="javascript:AnimaSubmitForm('form2')">
+            <div class="group-13-C61RwL">
+              <div class="send-WQXeF1 font-class-1">Send</div>
+            </div></a
+          >
+          <div class="group-14-C61RwL">
+            <input class="email-AX7pWk font-class-2" name="email1" placeholder="Email" type="email" required />
+          </div>
+          <div class="group-15-C61RwL">
+            <textarea
+              class="your-message-wz60dm font-class-2"
+              name="your-message1"
+              placeholder="Write your message here..."
+              required
+            ></textarea>
+          </div>
+        </form>
+      </div>
+
+    </div>
+    
+    
+  </body>
+</html>
